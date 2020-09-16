@@ -19,6 +19,9 @@ function App() {
         </div>
           <Switch>
             <Route exact path="/" component={ Home } />
+
+            {/* PrivateRoute replacing route to the protected page */}
+
             <PrivateRoute exact path='/protected' component={ Friends } />
             <Route exact path='/login' component={ Login } />
             <Route component={ Login } />
