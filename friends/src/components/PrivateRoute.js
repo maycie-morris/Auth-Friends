@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Redirect } from 'react-router-dom'
 
+// requires token to access
 
 export const PrivateRoute = ({ component: Component, otherProps, ...rest }) => {
     return (

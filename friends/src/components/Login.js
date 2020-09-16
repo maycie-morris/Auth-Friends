@@ -13,13 +13,13 @@ export const Login = () => {
         password: "",
     });
 
-    // const [isLoading, setIsLoading] = useState(false)
+    const [isLoading, setIsLoading] = useState(false)
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setIsLoading(true)
-    //     }, 1000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(true)
+        }, 1000)
+    }, [])
 
     const handleChange = e => {
         setCredentials({

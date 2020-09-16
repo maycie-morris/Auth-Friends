@@ -1,6 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
+// Wanted a landing page for Home
 
 export const Home = () => {
     const history = useHistory();
