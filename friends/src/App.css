@@ -11,7 +11,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-left: 75%;
-  color: #ffff;
+  color: rgb(231, 172, 45);
   font-size: 1.3rem;;
   text-decoration: none;
 }
